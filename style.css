@@ -1,0 +1,464 @@
+/* Define var for root element */
+
+:root {
+  /* footer root  colors*/
+  --footer-btn-color: rgb(248, 249, 250);
+  --footer-btn-bg-color: rgb(220, 47, 2);
+  --footer-btn-hover-color: rgb(55, 6, 23);
+  --footer-bg-color: black;
+  --footer-text-color: rgb(173, 181, 189);
+  /* Navigation bar + text - colors*/
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 95%;
+  margin-bottom: 0 auto;
+}
+
+/*Lines ===================*/
+
+/* typography
+=================== */
+
+.title1 {
+  font-family: "Road Rage", cursive;
+  color: white;
+  font-size: 60px;
+  margin-top: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 60rem) {
+  .title {
+    font-size: 3.7rem;
+  }
+}
+/* header 
+===================
+======================= */
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 1em;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+ul {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+li {
+  list-style-type: none;
+}
+.a-nav {
+  font-family: "Amatic SC", cursive;
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+ul :hover .ul-blog {
+  display: block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: rgb(157, 2, 8);
+}
+.a-nav:hover {
+  transition: all 0.3s ease;
+  color: rgb(157, 2, 8);
+}
+.logo {
+  align-items: center;
+  width: 100px;
+  height: 120px;
+}
+@media (min-width: 60rem) {
+  .logo {
+    float: left;
+  }
+}
+/* dropdown menu blog ======== */
+
+.ul-blog {
+  display: none;
+  padding: 20px;
+}
+.li-blog {
+  list-style: none;
+}
+.a-blog {
+  text-decoration: none;
+  font-family: "Amatic SC", cursive;
+  color: white;
+  font-size: 30px;
+}
+.a-blog:hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: rgb(157, 2, 8);
+}
+
+/* home-hero 
+===================
+====================*/
+
+.button {
+  display: inline-block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: 0.5em 1.75em;
+}
+.button-accent {
+  font-family: "Road Rage", cursive;
+  font-size: 30px;
+  color: white;
+  border-radius: 10px;
+}
+.button-accent:hover,
+.button-accent:focus {
+  background-color: rgb(157, 2, 8);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+.home-hero {
+  background-image: url(images/we1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 25em 0;
+  box-shadow: 0 0 10px 5px;
+}
+/* container-block cards 
+=============================
+==============================*/
+
+.container-block {
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+}
+
+.card {
+  background-color: #5b6467;
+  background-image: linear-gradient(315deg, #45494b 0%, #777c81 74%);
+  box-shadow: 0 0 10px 5px;
+  width: 500px;
+  height: 500px;
+  margin: 40px;
+  border-radius: 15px;
+}
+.card-image {
+  padding: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.car-1 {
+  background-image: url(images/Lithuania.jpg);
+}
+.car-2 {
+  background-image: url(images/romania2.jpg);
+}
+.car-3 {
+  background-image: url(images/norway.jpg);
+}
+.card h2 {
+  font-family: "Annie Use Your Telescope", cursive;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 3px;
+}
+.card p {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 15px;
+}
+.card-buttons {
+  font-family: sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  border-style: solid;
+  padding: 6px;
+  border-radius: 7px;
+}
+.card:hover {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+.card-buttons:hover {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+/* Container-block-text===================================================================================*/
+.container-block.-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+.titleh3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  font-size: 70px;
+  text-transform: uppercase;
+  color: white;
+  margin: 0px;
+}
+
+/* Container-block 1 (Icons + text ) =============================================================================================*/
+.container-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.icon-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+.fas {
+  margin-bottom: 3px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.fa-map-marked-alt {
+  font-size: 120px;
+  color: white;
+}
+.fa-map-marked-alt:hover {
+  cursor: pointer;
+  color: gray;
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+.fa-campground {
+  font-size: 120px;
+  color: white;
+}
+.fa-campground:hover {
+  cursor: pointer;
+  color: gray;
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+.fa-hiking {
+  font-size: 120px;
+  color: white;
+}
+.fa-hiking:hover {
+  cursor: pointer;
+  color: gray;
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+.titleh1 {
+  color: white;
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+.textp {
+  display: flex;
+  justify-content: center;
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  font-size: 33px;
+  text-transform: uppercase;
+  color: rgb(131, 123, 123);
+  margin: 40px;
+}
+/* Footer starts here + 3 blocks 
+===============================
+===============================*/
+.footer-wrap {
+  background-color: var(--footer-bg-color);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: space-between;
+  margin-top: auto;
+}
+.block-footer {
+  margin: 20px;
+  width: 500px;
+  height: 600px;
+}
+
+/* Middle block 
+================
+================*/
+
+#title-block-footer {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: var(--footer-text-color);
+}
+#title-block-footer2 {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: var(--footer-text-color);
+}
+#email-input {
+  display: inline;
+  height: 57px;
+  width: 250px;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-style: none;
+}
+#submit-button {
+  display: inline;
+  height: 58px;
+  width: 100px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: var(--footer-btn-color);
+  text-transform: uppercase;
+  border-style: none;
+  background-color: var(--footer-btn-bg-color);
+  cursor: pointer;
+  margin-top: 15px;
+}
+#submit-button:hover {
+  color: var(--footer-btn-hover-color);
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+#title-block-footer3 {
+  font-family: sans-serif;
+  color: var(--footer-text-color);
+  text-transform: uppercase;
+  font-size: 30px;
+}
+/* Left block 
+=====================
+======================*/
+#support-title {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: var(--footer-text-color);
+}
+#support-button {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: sans-serif;
+  color: var(--footer-btn-color);
+  padding: 12px;
+  background-color: var(--footer-btn-bg-color);
+}
+#support-img {
+  background-image: url(images/vw-exterior1.jpg);
+  height: 400px;
+  margin-bottom: 40px;
+  background-size: cover;
+  background-position: center;
+}
+#support-button:hover {
+  color: var(--footer-btn-hover-color);
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+/* Right block
+=====================
+======================*/
+.logo-footer {
+  background-image: url(images/logo.png);
+  opacity: 10%;
+  height: 400px;
+  margin-top: 70px;
+  background-size: cover;
+  background-position: center;
+}
+/* footer icons =============
+=================*/
+
+.fa-facebook-square {
+  font-size: 50px;
+}
+.fa-facebook-square:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 1s ease;
+}
+.fa-instagram {
+  font-size: 50px;
+}
+.fa-instagram:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 1s ease;
+}
+.fa-youtube {
+  font-size: 50px;
+}
+.fa-youtube:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 1s ease;
+}
+.fab {
+  margin: 10px;
+}
+.a-footer {
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.8s ease;
+}

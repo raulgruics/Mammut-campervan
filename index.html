@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mammut</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6e00bceae0.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--- header section (nav bar , logo )
+    ===========================
+==============================-->
+    <header class="header">
+        <img src="images/logo.png" alt="logo" class="logo">
+        <nav >
+            <ul>
+                <li><a href="index.html" class="a-nav">Home</a></li>
+                <li><a href="About.html" class="a-nav">About</a></li>
+                <li><a href="gallery.html" class="a-nav">Gallery </a></li>
+                <li><a href="Blog.html" class="a-nav">Blog</a>
+
+                <ul class="ul-blog">
+                    <li class="li-blog"><a href="" class="a-blog">Travel Guides</a></li>
+                    <li class="li-blog"> <a href="" class="a-blog">Camping Spots</a></li>
+                    <li class="li-blog"> <a href="" class="a-blog">Hiking Trails</a></li>
+                    <li class="li-blog"> <a href="" class="a-blog">Camper upgrades</a></li>
+
+                </ul>
+                </li>
+
+                <li><a href="contact.html" class="a-nav">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- background image + title +button 
+    ============================
+============================== -->
+    <section class="home-hero">
+        <div class="container">
+        <h1 class="title1">TRAVEL FAR. GET OUT. RIDE EVERYDAY.
+            </h1>
+            <a href="Blog.html" class="button button-accent">Check our trips</a>
+            </div>
+    </section>
+    <!-- Content block , 3 block , 3 images + titles 
+    ===================================
+======================================-->
+<section class="container-block1">
+    
+    <h1 class="titleh1">Go Explore!</h1>
+    <p class="textp">Browse below to find our road trip guides to help you with your motorhome or campervan road trip plans..</p>
+    <div class="container-icons">
+
+        <div>
+        <a href=""><i class="fas fa-map-marked-alt"></i></a>
+        <h2 class="icon-text" >Travel <br> Guides</h2>
+        </div>
+
+        <div>
+        <a href=""><i class="fas fa-campground"></i></a>
+        <h2 class="icon-text" > Best<br>Camping<br>Spots</h2>
+        </div>
+
+        <div>
+        <a href=""><i class="fas fa-hiking"></i></a>
+        <h2 class="icon-text" >Hiking <br>Trails</h2>
+        </div>
+    </div>
+</section>
+<section class="container-block-text">
+    <div class="titleh3"><h3>Check out our latest travels</h3></div>
+</section>
+<section class="container-block">
+    <div class="card">
+        <div class="card-image car-1"></div>
+<h2>Lithuania</h2>
+<p>Lithuania is known for its  green landscapes, so if you want a break from the hustle and bustle of city life, you
+should go to the Curonian Spit, Anykščiai, Trakai, or one of the many national parks.</p>
+<a href="" class="card-buttons">Read More</a>
+        </div>
+    <div class="card">
+        <div class="card-image car-2"></div>
+        <h2>Romania</h2>
+        <p>Romania is a country packed with well-preserved history. The culture, iconic landmarks and beautiful landscapes make it
+        a fantastic travel destination. </p>
+        <a href="Blog-pages/Romania.html" class="card-buttons">Read More</a>
+    </div>
+    <div class="card">
+        <div class="card-image car-3"></div>
+        <h2>Norway</h2>
+        <p>Norway is known as the Land of the Midnight Sun. It is famous for its phenomenal fjords, lakes and magical skies. Norway
+        </p>
+        <a href=" " class="card-buttons">Read More</a>
+    </div>
+</section>
+
+    <!-- Footer section , 3 blocks + links 
+    ==========================
+=============================-->
+  <footer class="footer-wrap">
+      <div class="block-footer">
+        <h1 id="support-title">Support us on Patreon!</h1>
+        <div id="support-img"></div>
+        <a href="" id="support-button">Support us!</a>
+      </div>
+      <div class="block-footer">
+<h1 id="title-block-footer">Mammutas newsletter</h1>
+<h3 id="title-block-footer2">Sign up to be the first to receive news and updates</h3>
+<form class="form-footer">
+    <input type="email" id="email-input" placeholder="Email Adress" >
+    <input type="submit" id="submit-button"  onclick="submitDataFooter()">
+    <!-- newsletter must be linked to footer.js-->
+</form>
+<h1 id="title-block-footer3">Follow us on social media ! </h1>
+<a href="https://www.facebook.com/raul.gruics/" target="_blank" class="a-footer"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://www.instagram.com/" target="_blank" class="a-footer"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.youtube.com" target="_blank" class="a-footer"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div class="block-footer">
+          <div class="logo-footer"></div>
+      </div>
+  </footer>
+</body>
+</html>

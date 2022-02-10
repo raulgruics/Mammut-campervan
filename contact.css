@@ -1,0 +1,309 @@
+/* Define var for root element */
+
+:root {
+  /* footer root  colors*/
+  --footer-btn-color: rgb(248, 249, 250);
+  --footer-btn-bg-color: rgb(220, 47, 2);
+  --footer-btn-hover-color: rgb(55, 6, 23);
+  --footer-bg-color: black;
+  --footer-text-color: rgb(173, 181, 189);
+  /* Navigation bar + text - colors*/
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* header 
+===================
+======================= */
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 1em;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+li {
+  list-style-type: none;
+}
+.a-nav {
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.8s ease;
+}
+.a-nav:hover{
+  cursor: pointer;
+  transition: all 0.8s ease;
+ color: rgb(157, 2, 8);
+}
+.logo {
+  align-items: center;
+  width: 100px;
+  height: 120px;
+}
+@media (min-width: 60rem) {
+  .logo {
+    float: left;
+  }
+}
+/* home-hero +paragraph ==============
+==================*/
+.home-hero {
+  background-image: url(images/vw-interior1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 25em 0;
+  box-shadow: 0 0 10px 5px ;
+}
+/* Contact form ============================
+=============================*/
+
+.form-main-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.block-left {
+  margin: 35px;
+  display: flex;
+  flex-direction: column;
+  width: 844px;
+  height: 702px;
+}
+
+.block-left h1 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: gray;
+}
+.block-left p {
+  font-family: sans-serif;
+  font-size: 24px;
+  color: gray;
+}
+
+.block-right {
+  margin: 35px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 844px;
+  height: 702px;
+}
+
+.form {
+  margin: 14px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.labels {
+  margin: 10px;
+  color: gray;
+  font-size: 24px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.inputs {
+  padding: 20px;
+  font-family: sans-serif;
+}
+#message {
+  padding: 60px;
+}
+#button {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: white;
+  padding: 18px;
+  background-color: rgb(220, 47, 2);
+  font-weight: bold;
+  border: 0;
+}
+#button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease 1.2s;
+  color: rgb(55, 6, 23);
+}
+
+/* Footer section starts here  + 3 blocks============================
+=================================*/
+.footer-wrap {
+  background-color: var(--footer-bg-color);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: space-between;
+  margin-top: auto;
+}
+.block-footer {
+  margin: 20px;
+  width: 500px;
+  height: 600px;
+}
+
+/* Middle block 
+================
+================*/
+
+#title-block-footer {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: var(--footer-text-color);
+}
+#title-block-footer2 {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: var(--footer-text-color);
+}
+#email-input {
+  display: inline;
+  height: 57px;
+  width: 250px;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-style: none;
+}
+#submit-button {
+  display: inline;
+  height: 58px;
+  width: 100px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: var(--footer-btn-color);
+  text-transform: uppercase;
+  border-style: none;
+  background-color: var(--footer-btn-bg-color);
+  cursor: pointer;
+  margin-top: 15px;
+}
+#submit-button:hover {
+  color: var(--footer-btn-hover-color);
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+#title-block-footer3 {
+  font-family: sans-serif;
+  color: var(--footer-text-color);
+  text-transform: uppercase;
+  font-size: 30px;
+}
+/* Left block 
+=====================
+======================*/
+#support-title {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: var(--footer-text-color);
+}
+#support-button {
+    text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: sans-serif;
+  color: var(--footer-btn-color);
+  padding: 12px;
+  background-color: var(--footer-btn-bg-color);
+}
+#support-img {
+  background-image: url(images/vw-exterior1.jpg);
+  height: 400px;
+  margin-bottom: 40px;
+  background-size: cover;
+  background-position: center;
+}
+#support-button:hover {
+  color: var(--footer-btn-hover-color);
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+/* Right block
+=====================
+======================*/
+.logo-footer {
+  background-image: url(images/logo.png);
+  opacity: 10%;
+  height: 400px;
+  margin-top: 70px;
+  background-size: cover;
+  background-position: center;
+}
+/* footer icons =============
+=================*/
+.fa-facebook-square {
+  font-size: 50px;
+}
+.fa-facebook-square:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 1s ease;
+}
+.fa-instagram {
+  font-size: 50px;
+}
+.fa-instagram:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 1s ease;
+}
+.fa-youtube {
+  font-size: 50px;
+}
+.fa-youtube:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 1s ease;
+}
+.fab {
+  margin: 10px;
+}
+.a-footer { 
+    font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.8s ease;
+}
