@@ -34,13 +34,14 @@ img {
 =================== */
 
 .title1 {
-  font-family: "Road Rage", cursive;
+  font-family: "Amatic SC", cursive;
   color: white;
   font-size: 60px;
   margin-top: 150px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 10px;
+  letter-spacing: 9px;
 }
 
 @media (min-width: 60rem) {
@@ -135,14 +136,16 @@ ul :hover .ul-blog {
   padding: 0.5em 1.75em;
 }
 .button-accent {
-  font-family: "Road Rage", cursive;
-  font-size: 30px;
+  font-family: "Amatic SC", cursive;
+  font-size: 32px;
+  font-weight: bold;
   color: white;
   border-radius: 10px;
+  
 }
 .button-accent:hover,
 .button-accent:focus {
-  background-color: rgb(157, 2, 8);
+  background-color: rgb(216, 61, 66);
   color: white;
   cursor: pointer;
   transform: scale(1.03);
@@ -197,8 +200,8 @@ ul :hover .ul-blog {
 .card h2 {
   font-family: "Amatic SC", cursive;
   text-transform: uppercase;
-  font-size: 20px;
-  margin: 3px;
+  font-size: 24px;
+  margin: 1px;
 }
 .card p {
   font-family: "Amatic SC", cursive;
@@ -207,14 +210,13 @@ ul :hover .ul-blog {
   font-weight: bold;
 }
 .card-buttons {
-  font-family: sans-serif;
+  font-family: "Amatic SC", cursive;
+  font-size: 20px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
   color: black;
-  border-style: solid;
-  padding: 6px;
-  border-radius: 7px;
+  
 }
 .card:hover {
   background-color: rgb(62, 62, 62);
@@ -224,7 +226,6 @@ ul :hover .ul-blog {
   transition: all 1s ease;
 }
 .card-buttons:hover {
-  background-color: rgb(62, 62, 62);
   color: white;
   cursor: pointer;
   transform: scale(1.03);
@@ -315,6 +316,7 @@ ul :hover .ul-blog {
   text-transform: uppercase;
   color: rgb(131, 123, 123);
   margin: 40px;
+  letter-spacing: 4px;
 }
 /* Footer starts here + 3 blocks 
 ===============================

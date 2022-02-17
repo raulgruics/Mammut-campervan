@@ -133,14 +133,17 @@ li {
   margin: 40px;
 }
 .middle-section-title {
-  color: gray;
-  font-family: sans-serif;
+  color: rgb(255, 251, 251);
+  font-family: "Amatic SC", cursive;
   text-transform: uppercase;
+  letter-spacing: 5px;
   font-size: 40px;
 }
 .middle-section-paragraph {
-  color: gray;
-  font-family: sans-serif;
+  color: rgb(219, 211, 211);
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  letter-spacing: 5px;
   font-size: 20px;
 }
 
