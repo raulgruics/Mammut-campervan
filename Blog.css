@@ -107,13 +107,14 @@ nav {
 }
 .middle-title {
   color: rgb(230, 222, 222);
-  font-family: sans-serif;
-  font-size: 50px;
+  font-family: "Amatic SC", cursive;
+  font-size: 80px;
 }
 .travel-guides-title{ 
   color: rgb(177, 170, 170);
-  font-family: sans-serif;
-  font-size: 50px;
+  font-family: "Amatic SC", cursive;
+  font-size: 60px;
+  letter-spacing: 4px;
 }
 .blocks {
   display: flex;
