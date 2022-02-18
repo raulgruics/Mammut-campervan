@@ -255,17 +255,43 @@ nav {
   flex-direction: column;
   flex-wrap: wrap;
   display: flex;
-  width: 1564px;
-  height:437px;
+  margin: 15px;
+}
+.h3-title {
+  font-family: "Amatic SC", cursive;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
 }
 .camping-spots-p{
   flex-shrink: 3;
   font-family: "Amatic SC", cursive;
-  font-size: 22px;
-  color: white;
+  font-size: 29px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
   margin: 10px;
   padding: 10px;
   letter-spacing: 5px;
+}
+/*images-block-camping-spots=============================
+====================================*/
+
+.camping-img-block1{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-end;
+}
+
+/*images-paragraphs =========================
+======================================= */ 
+
+.img-camp-p { 
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+  margin: 20px;
 }
 /* UL-block middle section ( Mammutas Specifications  ) ===========================*/
 .van-picture {
