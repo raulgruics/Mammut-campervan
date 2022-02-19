@@ -87,6 +87,15 @@ nav {
   padding: 25em 0;
   box-shadow: 0 0 10px 5px;
 }
+/*Lines ===================*/
+.lines{ 
+  display: flex;
+  justify-content: center;
+  width: 1563px;
+  height:1px;
+  background: #fff;
+}
+
 /* Middle sections starts here =================
 ====================================*/
 
@@ -233,7 +242,7 @@ nav {
 .middle-section-camping{
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 .camping-spots-title{
@@ -277,7 +286,7 @@ nav {
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-justify-content: flex-end;
+justify-content:center
 }
 
 /*images-paragraphs =========================
