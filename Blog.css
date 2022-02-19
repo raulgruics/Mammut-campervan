@@ -87,15 +87,6 @@ nav {
   padding: 25em 0;
   box-shadow: 0 0 10px 5px;
 }
-/*Lines ===================*/
-.lines{ 
-  display: flex;
-  justify-content: center;
-  width: 1563px;
-  height:1px;
-  background: #fff;
-}
-
 /* Middle sections starts here =================
 ====================================*/
 
@@ -273,6 +264,12 @@ nav {
   padding: 10px;
   letter-spacing: 5px;
 }
+.h2-title2 {
+  font-family: "Amatic SC", cursive;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
 /*images-block-camping-spots=============================
 ====================================*/
 
@@ -291,7 +288,7 @@ justify-content: flex-end;
   font-weight: bold;
   font-size: 35px;
   color: white;
-  margin: 20px;
+  margin-bottom:50px;
 }
 /* UL-block middle section ( Mammutas Specifications  ) ===========================*/
 .van-picture {
@@ -340,7 +337,7 @@ li {
   color: rgb(246, 242, 242);
   text-transform: uppercase;
 }
-h1 {
+h4 {
   font-family: "Amatic SC", cursive;
   text-transform: uppercase;
   font-size: 35px;
