@@ -158,9 +158,24 @@ ul :hover .ul-blog {
   padding: 25em 0;
   box-shadow: 0 0 10px 5px;
 }
+
+/* Appear transitions=================
+============================= */
+
+.container-block-explore{ 
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.9s all ease-in-out; 
+}
+.intro-appear{ 
+  opacity: 1;
+ transform: translateY(0px);
+}
 /* container-block cards 
 =============================
 ==============================*/
+
+
 
 .container-block {
   display: flex;
@@ -251,6 +266,7 @@ ul :hover .ul-blog {
 }
 /* Hello there */
 /* Container-block 1 (Icons + text ) =============================================================================================*/
+
 .container-icons {
   display: flex;
   flex-direction: row;
