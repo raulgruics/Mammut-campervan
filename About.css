@@ -88,7 +88,15 @@ li {
   padding: 25em 0;
   box-shadow: 0 0 10px 5px ;
 }
+
+/* Text - animations =================
+============================= */
+.intro-appear{ 
+  opacity: 1;
+ transform: translateY(0px);
+}
 /* Middle-section1  ==========================*/
+
 .middle-wrap {
   display: flex;
   flex-direction: column;

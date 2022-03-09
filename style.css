@@ -28,8 +28,6 @@ img {
   margin-bottom: 0 auto;
 }
 
-/*Lines ===================*/
-
 /* typography
 =================== */
 
@@ -159,7 +157,7 @@ ul :hover .ul-blog {
   box-shadow: 0 0 10px 5px;
 }
 
-/* Appear transitions=================
+/* Text - animations =================
 ============================= */
 
 .container-block-explore{ 
@@ -171,6 +169,9 @@ ul :hover .ul-blog {
   opacity: 1;
  transform: translateY(0px);
 }
+
+
+
 /* container-block cards 
 =============================
 ==============================*/
