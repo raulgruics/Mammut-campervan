@@ -105,29 +105,31 @@ li {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 65px;
+  gap: 40px;
+  padding: 10px;
 }
 .middle-section2 {
+  padding: 10px;
   display: flex;
   justify-content: space-evenly;
    flex-wrap: wrap;
-   gap: 65px;
+   gap: 40px;
 }
 .middle-section-image-img1 {
   background-image: url(images/Vaida-crop.jpg);
   background-position: center;
   background-size: cover;
-  width: 705px;
+  width: 605px;
   height: 520px;
-  margin: 40px;
+  
+
 }
 .middle-section-image-img2 {
   background-image: url(images/Raul.jpg);
   background-position: center;
   background-size: cover;
-  width: 705px;
+  width: 605px;
   height: 520px;
-  margin: 40px;
   
 }
 .text-block {
@@ -148,7 +150,8 @@ li {
   font-family: "Amatic SC", cursive;
   font-weight: bold;
   letter-spacing: 5px;
-  font-size: 30px;
+  font-size: 20px;
+  margin: 10px;
 }
 
 /* Footer section starts here  + 3 blocks============================
