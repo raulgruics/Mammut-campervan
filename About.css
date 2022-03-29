@@ -100,23 +100,18 @@ li {
 .middle-wrap {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 .middle-section1 {
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  width: auto;
-  height: auto;
+  gap: 65px;
 }
 .middle-section2 {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  width: auto;
-  height: auto;
+  justify-content: space-evenly;
+   flex-wrap: wrap;
+   gap: 65px;
 }
 .middle-section-image-img1 {
   background-image: url(images/Vaida-crop.jpg);
@@ -136,9 +131,10 @@ li {
   
 }
 .text-block {
+  display: flex;
+  flex-direction: column;
   width: 705px;
   height: 520px;
-  margin: 40px;
 }
 .middle-section-title {
   color: rgb(255, 251, 251);
@@ -152,7 +148,7 @@ li {
   font-family: "Amatic SC", cursive;
   font-weight: bold;
   letter-spacing: 5px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /* Footer section starts here  + 3 blocks============================

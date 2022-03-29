@@ -255,7 +255,7 @@ nav {
   flex-direction: column;
   flex-wrap: wrap;
   display: flex;
-  margin: 15px;
+  margin: 5px;
 }
 .h3-title {
   font-family: "Amatic SC", cursive;
@@ -264,13 +264,12 @@ nav {
   font-weight: 700;
 }
 .camping-spots-p{
-  flex-shrink: 3;
   font-family: "Amatic SC", cursive;
   font-size: 29px;
   font-weight: 900;
   color: rgb(255, 255, 255);
-  margin: 10px;
-  padding: 10px;
+  margin: 4px;
+  padding: 4px;
   letter-spacing: 5px;
 }
 .h2-title2 {
@@ -279,27 +278,34 @@ nav {
   font-weight: bold;
   color: white;
 }
-/*images-block-camping-spots=============================
-====================================*/
-
-.camping-img-block1{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content:center
+.camping-spot-button{ 
+  border-radius: 5px;
+  margin: 10px;
+  border: 0px;
+   text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: sans-serif;
+  color: var(--footer-btn-color);
+  padding: 12px;
+  background-color: var(--footer-btn-bg-color);
 }
+.camping-spot-button:hover{
+  color: var(--footer-btn-hover-color);
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+/*image-block-camping-spots=============================
+====================================*/
 
 /*images-paragraphs =========================
 ======================================= */ 
 
-.img-camp-p { 
-  font-family: "Amatic SC", cursive;
-  font-weight: bold;
-  font-size: 35px;
-  color: white;
-  margin-bottom:50px;
-}
-/* UL-block middle section ( Mammutas Specifications  ) ===========================*/
+
+/* UL-block middle section ( Mammutas Specifications  ) ===========================
 .van-picture {
   width: 40%;
   height: 90%;
@@ -362,6 +368,7 @@ h4 {
   margin: 20px;
   padding: 50px;
 }
+*/
 /* Footer section starts here  + 3 blocks============================
 =================================*/
 .footer-wrap {

@@ -79,3 +79,5 @@ function getRequest() {
         console.log(error)
 } );
 }
+// map API
+
