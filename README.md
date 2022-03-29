@@ -3,6 +3,7 @@
 Hey there! I'm Raul 
 
 About me
+
 I'm a junior Full Stack Developer 
 I recently finished a Web Development Full Stack course and this is my first project build from scratch 
 
